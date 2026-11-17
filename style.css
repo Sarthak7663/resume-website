@@ -1,0 +1,99 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: ivory;
+    color: black;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 18px;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 60px 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border: 5px solid goldenrod;
+    border-radius: 100px;
+}
+
+.intro {
+    margin-left: 40px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: darkslategray;
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 8px;
+}
+
+.box {
+    background-color: white;
+    width: 70%;
+    margin: 25px auto;
+    padding: 20px 30px;
+    border: 1px solid lightgray;
+    border-left: 8px solid goldenrod;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: darkslategray;
+    color: white;
+    padding: 8px 18px;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+}
+
+a {
+    color: darkslategray;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
